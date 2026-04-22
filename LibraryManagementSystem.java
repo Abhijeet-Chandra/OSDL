@@ -1,28 +1,12 @@
-import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.TextArea;
-
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInput;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.lang.classfile.constantpool.MemberRefEntry;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
 import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.scene.Scene;
+
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+
+import java.util.*;
+import java.io.*;
 
 class Book implements Serializable{
     private String bookId;
